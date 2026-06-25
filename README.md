@@ -31,15 +31,15 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 | Pipeline | Highlights |
 |----------|------------|
-| **Unauthorized Cultivation** | Dual-model approach evolved to **encoder + dual-decoder** architecture (detection + boundary); spatial clipping for authorized vs unauthorized zones |
-| **Illegal Construction** | Building detection on drone imagery; spatial clipping for compliance analysis |
-| **Green Cover Monitoring** | Vegetation detection; biodiversity hotspot and green-cover classification(Grass, Shurbs, Medium Trees, Tall Trees) using DEM heights |
-| **Road Network** | Triple-decoder segmentation framework (Thar, CC, Mud/Gravel); multi-class road detection with constructed vs planned KM extraction |
+| [**Unauthorized Cultivation**](cultivation_land_detection.md) | Dual-model approach evolved to **encoder + dual-decoder** architecture (detection + boundary); spatial clipping for authorized vs unauthorized zones |
+| [**Illegal Construction**](building_detection.md) | Building detection on drone imagery; spatial clipping for compliance analysis |
+| [**Green Cover Monitoring**](vegetation_detection.md) | Vegetation detection; biodiversity hotspot and green-cover classification (Grass, Shrubs, Medium Trees, Tall Trees) using DEM heights |
+| [**Road Network**](multiclass_road_model_detection.md) | Triple-decoder segmentation framework (Thar, CC, Mud/Gravel); multi-class road detection with constructed vs planned KM extraction |
 
 ### Satellite Remote Sensing (State-Scale)
 
-- **Aqua Bodies Detection** — Planet imagery band R&D, model training, **~90% accuracy**, statewide inference
-- **Built-up Area Detection** — spectral band analysis, model iteration, **~92% accuracy**, statewide predictions
+- [**Aqua Bodies Detection**](aquaculture_ponds_detection.md) — Planet imagery band R&D, model training, **~90% accuracy**, statewide inference
+- [**Built-up Area Detection**](built_up_area_detection.md) — spectral band analysis, model iteration, **~92% accuracy**, statewide predictions
 
 ### NLP & Classification
 
