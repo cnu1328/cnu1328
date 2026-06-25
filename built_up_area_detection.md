@@ -705,11 +705,9 @@ Each `scene_built_up_probability.tif` produces
 
 | Stage | Image |
 |---|---|
-| Input satellite imagery | ![Input](./doc_images/raw_image.png) |
-| Probability map | ![Probability](./doc_images/predictions.png) |
-| Vector output | ![Vector](./doc_images/extraced_polygons.png) |
-
-> Add your result images to `doc_images/`. Paths above are placeholders.
+| Input satellite imagery | ![Input](./doc_images/built_up_areas_raw_image.png) |
+| Probability map | ![Probability](./doc_images/built_up_areas_predictions.png) |
+| Vector output | ![Vector](./doc_images/built_up_areas_extraced_polygons.png) |
 
 ---
 

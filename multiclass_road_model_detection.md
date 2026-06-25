@@ -907,21 +907,21 @@ python automate/automate_road_postprocess.py \
 
 ### Input orthomosaic
 
-![Input ortho](doc_images/raw_image.png)
+![Input ortho](doc_images/road_raw_image.png)
 
 ### Class prediction map
 
-![Class map](doc_images/predictions.png)
+![Class map](doc_images/road_predictions.png)
 
 ### Per-head probability maps
 
 | Thar (ch0) | CC (ch1) | Mud (ch2) |
 |---|---|---|
-| ![Thar prob](doc_images/thar_probabilities.png) | ![CC prob](doc_images/cc_roads.png) | ![Mud prob](doc_images/mud_roads.png) |
+| ![Thar prob](doc_images/road_thar_probabilities.png) | ![CC prob](doc_images/road_cc_roads.png) | ![Mud prob](doc_images/road_mud_roads.png) |
 
 ### Vector output with road_type
 
-![Shapefile output](doc_images/extraction.png)
+![Shapefile output](doc_images/road_extraction.png)
 
 ---
 

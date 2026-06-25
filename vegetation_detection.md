@@ -1073,20 +1073,20 @@ python automate/automate_height_classification.py \
 
 ### Input orthomosaic
 
-![Input ortho](doc_images/raw.png)
+![Input ortho](doc_images/vegetation_raw.png)
 
 ### SAM3 vegetation Prediction
 
-![Vegetation probability](doc_images/predictions.png)
+![Vegetation probability](doc_images/vegetation_predictions.png)
 
 
 ### Extracted Vegetation Canopies
 
-![Height classes](doc_images/final_polygons.png)
+![Height classes](doc_images/vegetation_final_polygons.png)
 
 ### Vector output — height layers
 
-![Height layer shapefile](doc_images/classification.png)
+![Height layer shapefile](doc_images/vegetation_classification.png)
 
 ---
 

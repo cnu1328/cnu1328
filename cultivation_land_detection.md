@@ -882,16 +882,16 @@ python automate/automate_cultivation_postprocess.py \
 
 ### Input orthomosaic
 
-![Input ortho](./doc_images/raw_image.png)
+![Input ortho](./doc_images/cultivation_raw_image.png)
 
 ### Cultivation + boundary predictions
 
-![Cultivation prediction](./doc_images/agriculture.png)
-![Boundary prediction](./doc_images/boundary.png)
+![Cultivation prediction](./doc_images/cultivation_agriculture.png)
+![Boundary prediction](./doc_images/cultivation_boundary.png)
 
 ### Parcel vector output
 
-![Parcel polygons](./doc_images/final_output.png)
+![Parcel polygons](./doc_images/cultivation_final_output.png)
 
 ---
 

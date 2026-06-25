@@ -666,12 +666,12 @@ python post_process/post_process_aqua_boundary.py \
 
 | Stage | Image |
 |---|---|
-| RAW Planet Multispectral GeoTIFF  | ![Planet Image](./doc_images/raw_image.png) |
+| RAW Planet Multispectral GeoTIFF  | ![Planet Image](./doc_images/aqua_raw_image.png) |
 | Aqua Interior Masks | ![Interior Mask](./doc_images/aqua_interior.png) |
 | Aqua Boundary Masks | ![Boundary Mask](./doc_images/aqua_boundary.png) |
 | Aqua Interior Predictions | ![Aqua Interior Predictions](./doc_images/aqua_interior_predictions.png) |
 | Aqua Boudnary Predictions | ![Boundary probability](./doc_images/aqua_boudnary_predictions.png) |
-| After post-processing | ![After postprocess](./doc_images/final_predictions.png) |
+| After post-processing | ![After postprocess](./doc_images/aqua_final_predictions.png) |
 
 ---
 
@@ -941,7 +941,7 @@ python automate/automate_water_postprocess.py \
 
 ### Input satellite imagery
 
-![Input imagery](./doc_images/raw_image.png)
+![Input imagery](./doc_images/aqua_raw_image.png)
 
 
 ### Model prediction (aqua + boundary)
@@ -952,7 +952,7 @@ python automate/automate_water_postprocess.py \
 
 ### Vector output (bund-separated ponds)
 
-![Vector output](./doc_images/final_predictions.png)
+![Vector output](./doc_images/aqua_final_predictions.png)
 
 ### Dual-head visualization
 

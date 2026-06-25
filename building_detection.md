@@ -906,19 +906,19 @@ python automate/automate_building_postprocess.py \
 
 ### Input orthomosaic
 
-![Input ortho](./doc_images/raw_image.png)
+![Input ortho](./doc_images/building_detection_raw_image.png)
 
 ### Probability prediction
 
-![Prediction](./doc_images/prob_mask.png)
+![Prediction](./doc_images/building_detection_prob_mask.png)
 
 ### Vector output
 
-![Shapefile](./doc_images/polygon_extraction.png)
+![Shapefile](./doc_images/building_detection_polygon_extraction.png)
 
 ### Height-enriched output
 
-![Height map](./doc_images/classified_height.png)
+![Height map](./doc_images/building_detection_classified_height.png)
 
 ---
 
