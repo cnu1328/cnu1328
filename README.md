@@ -195,9 +195,9 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cnu1328/cnu1328/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cnu1328/cnu1328/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/cnu1328/cnu1328/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/github-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/github-snake.svg" width="100%" />
 </picture>
 
 </div>
