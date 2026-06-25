@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20,24,30&height=120&section=header&text=Srinivas%20Dharpally&fontSize=42&fontColor=ffffff&animation=twinkling"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=ML+Engineer+%C2%B7+Full+Stack+Developer+%C2%B7+Geospatial+AI;Production+CV+pipelines+on+drone+%26+satellite+imagery;Django+%C2%B7+React+%C2%B7+PostGIS+%C2%B7+PyTorch+%C2%B7+LangGraph;From+dataset+%E2%86%92+model+%E2%86%92+API+%E2%86%92+map+visualization)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=ML+Engineer+%C2%B7+Full+Stack+Developer+%C2%B7+Geospatial+AI+Engineer;Production+CV+pipelines+on+drone+%26+satellite+imagery;Django+%C2%B7+React+%C2%B7+PostGIS+%C2%B7+PyTorch+%C2%B7+LangGraph;From+dataset+%E2%86%92+model+%E2%86%92+API+%E2%86%92+map+visualization)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srinivas-dharpally/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-cnu1328.netlify.app/)
@@ -15,13 +15,11 @@
 
 ## About Me
 
-**R&D Engineer @ [VassarDigital.ai](https://vassardigital.ai)** · CSE @ RGUKT Basar (CGPA 9.18)
+**R&D Engineer I – AI/ML & Geospatial @ [VassarDigital.ai](https://vassardigital.ai)** ·
 
-I build full-stack geospatial platforms end-to-end — backend APIs, spatial analysis engines, ML model deployment, and production DevOps. I own ~80% of a capital-region spatial decision-support platform and have shipped **4 production drone-ML pipelines** plus state-scale satellite models.
+I build full-stack geospatial platforms end-to-end — backend APIs, spatial analysis engines, ML model deployment, and production DevOps. I own ~80% of a capital-region spatial decision-support platform and have shipped **4 production drone-ML pipelines** plus **2 state-scale satellite models**.
 
 Passionate about moving deeper into **AI/ML** while leveraging strong full-stack and GIS foundations.
-
-> *Select ML project write-ups will be published as documentation repos when policy allows.*
 
 ---
 
@@ -35,20 +33,13 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 |----------|------------|
 | **Unauthorized Cultivation** | Dual-model approach evolved to **encoder + dual-decoder** architecture (detection + boundary); spatial clipping for authorized vs unauthorized zones |
 | **Illegal Construction** | Building detection on drone imagery; spatial clipping for compliance analysis |
-| **Green Cover Monitoring** | Vegetation detection; biodiversity hotspot and green-cover classification |
-| **Road Network** | Single-class road detection with constructed vs planned KM extraction; multi-class model in progress |
+| **Green Cover Monitoring** | Vegetation detection; biodiversity hotspot and green-cover classification(Grass, Shurbs, Medium Trees, Tall Trees) using DEM heights |
+| **Road Network** | Triple-decoder segmentation framework (Thar, CC, Mud/Gravel); multi-class road detection with constructed vs planned KM extraction |
 
 ### Satellite Remote Sensing (State-Scale)
 
-- **Aqua Bodies Detection** — Planet imagery band R&D, model training, **~88% accuracy**, statewide inference
-- **Built-up Area Detection** — spectral band analysis, model iteration, **~90% accuracy**, statewide predictions
-
-### Vegetation Segmentation (SAM3 Pipeline)
-
-- **SAM3** text-prompted semantic segmentation on high-resolution orthomosaics
-- **CHM-based height classification** (grass, bush, small tree, tall tree) from DEM canopy height model
-- GIS polygon export for production map layers
-- *Documentation repo coming soon*
+- **Aqua Bodies Detection** — Planet imagery band R&D, model training, **~90% accuracy**, statewide inference
+- **Built-up Area Detection** — spectral band analysis, model iteration, **~92% accuracy**, statewide predictions
 
 ### NLP & Classification
 
@@ -57,7 +48,7 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 ### AI Applications
 
-- **ShapeCoach.ai** — LangGraph multi-agent fitness system, RAG over 900+ exercises, personalized workout/diet plans, OpenAI chatbot *(see Freelance section)*
+- **ShapeCoach.ai** — LangGraph multi-agent fitness system, RAG over 900+ exercises, personalized workout/diet plans, OpenAI SDK Agent *(see Freelance section)*
 
 ---
 
@@ -70,19 +61,11 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 - **Config-driven View Creation Module** — upload shapefiles, N-level aggregations, dynamic dashboards, GeoServer layer publishing; reduced new-view backend effort to **near zero**
 - Config-driven GIS pipeline: shapefile processing **5–6 hours → ~10 minutes** (~95% improvement)
 - **RBAC** via Keycloak for secure department portal access
-- Streamlit-based GIS utility tool for internal operations
-
-### Public & Citizen-Facing Portals
-
+- [Streamlit-based GIS utility tool for internal operations](https://shapefile-toolkit.streamlit.app/)
 - **Farmer/LPS User Portal** — SMS OTP authentication, plot search via Elasticsearch, map visualization, PII-aware farmer name masking
-- **Housing Module** — API integration with client-provided external data sources
-
-### Metadata & Data Pipeline
-
 - Shapefile upload APIs with **revert-to-previous-version** support
 - Table data processing, ingestion, and Elasticsearch indexing
 - Full Elasticsearch R&D — install, column-level insert APIs, search fetch APIs
-- Elasticsearch setup and deployment for additional government projects (PRRD)
 
 ---
 
@@ -90,10 +73,10 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 | Tool | What I Built |
 |------|--------------|
-| **Query Analysis** | Filter and run analysis across **520+ map layers**; export results as CSV, PDF, KML, KMZ, SHP, DWG |
-| **Buffer & Overlay Analysis** | Point/polygon/line/mosaic buffer analysis with spatial clipping; user-scoped results (6 APIs) |
-| **Nearest Neighbour Analysis** | Utility distance from polygon/point; **pgRouting + Dijkstra** shortest-path on trunk/LPS roads; Rank 1–5 distance classification; straight-line fallback when roads unavailable |
-| **Drawing Tool** | Polygon select + multi-layer intersect download in **7 export formats** (CSV, PDF, KML, KMZ, SHP, DWX, DWG) |
+| **Query Analysis** | Filter and run analysis across **520+ map layers**; export results as CSV, PDF, KML, KMZ, SHP, DXF, DWG |
+| **Buffer & Overlay Analysis** | Point/polygon/line/mosaic buffer analysis with spatial clipping for the multiple map layers|
+| **Nearest Neighbour Analysis** | Utility distance from polygon/point; **pgRouting + Dijkstra** shortest-path on trunk/LPS roads; Rank 1–5 distance classification |
+| **Drawing Tool** | Polygon select + multi-layer intersect download in **7 export formats** (CSV, PDF, KML, KMZ, SHP, DXF, DWG) |
 
 ---
 
@@ -102,7 +85,6 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 - **Night Watcher (Monit)** — self-healing monitoring with real-time alerts for Backend, UI, Keycloak, User Management
 - **Jenkins CI/CD** — automated deployments, **~80% reduction** in deployment effort
 - **Security Audits** — Nginx hardening, User Management remediation, backend audit fixes, GeoServer PII encryption
-- **Disaster Management** — API authorization as part of platform security audit
 
 ---
 
@@ -112,10 +94,10 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 | Project | Stack | Impact |
 |---------|-------|--------|
-| **Media Scan** | Python, Django | News aggregation, multilingual summaries (Te/Eng), YouTube analytics for 50+ channels — **4 hrs → 1 min** report time |
-| **Voter Analytics** | Python, Django, PostgreSQL | PDF extraction, AI-assisted regex, survey workflow with RBAC, district/constituency insights |
-| **Action Management** | Python, Django | Real-time action tracking, audit trails, RBAC, notifications |
-| **KCR Cup** | Python, Django | Cricket tournament platform — live scoring, stats, leaderboards |
+| **Media Scan** | Python, Django, Nextjs | News aggregation, multilingual summaries (Te/Eng), YouTube analytics for 50+ channels — **4 hrs → 1 min** report time |
+| **Voter Analytics** | Python, Django, Nextjs  | PDF extraction, AI-assisted regex, survey workflow with RBAC, district/constituency insights |
+| **Action Management** | Python, Django, Nextjs  | Real-time action tracking, audit trails, RBAC, notifications |
+| **KCR Cup** | Python, Django, Nextjs  | Cricket tournament platform — live scoring, stats, leaderboards |
 
 ### ShapeCoach.ai — AI + Full Stack Engineer
 
@@ -125,7 +107,7 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 - OpenAI Agent SDK chatbot for real-time fitness assistance
 - Razorpay payment gateway with signature verification and subscriptions
 
-### Open Source
+### College Projects
 
 | Project | Description |
 |---------|-------------|
@@ -151,6 +133,7 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -175,8 +158,6 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 ## GitHub Stats
 
-*Stats and language cards update daily via GitHub Actions — no external API dependency.*
-
 <div align="center">
 
 <img height="165" src="./output/stats.svg" alt="GitHub Stats"/>
@@ -191,8 +172,6 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 ---
 
 ## Contribution Snake
-
-*Updates daily via GitHub Actions — the snake eats my contribution graph as it moves across the grid.*
 
 <div align="center">
 
