@@ -179,10 +179,10 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 <div align="center">
 
-<img height="165" src="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/stats.svg" alt="GitHub Stats"/>
+<img height="165" src="./output/stats.svg" alt="GitHub Stats"/>
 <img height="165" src="https://streak-stats.demolab.com/?user=cnu1328&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
-<img src="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/top-langs.svg" alt="Top Languages"/>
+<img src="./output/top-langs.svg" alt="Top Languages"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=cnu1328&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
 
@@ -197,9 +197,9 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/github-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./output/github-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="./output/github-snake.svg" width="100%" />
 </picture>
 
 </div>
