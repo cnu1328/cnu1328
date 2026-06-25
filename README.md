@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srinivas-dharpally/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-cnu1328.netlify.app/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinivas.dharpally@vassardigital.ai)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinudarpally@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cnu1328)
 
 </div>
@@ -175,12 +175,14 @@ End-to-end ownership: dataset creation → model R&D → spatial business logic 
 
 ## GitHub Stats
 
+*Stats and language cards update daily via GitHub Actions — no external API dependency.*
+
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cnu1328&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=cnu1328&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+<img height="165" src="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/stats.svg" alt="GitHub Stats"/>
+<img height="165" src="https://streak-stats.demolab.com/?user=cnu1328&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cnu1328&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
+<img src="https://raw.githubusercontent.com/cnu1328/cnu1328/main/output/top-langs.svg" alt="Top Languages"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=cnu1328&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
 
